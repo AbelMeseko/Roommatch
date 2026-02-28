@@ -31,11 +31,11 @@
     --shadow-sm: 0 1px 3px rgba(245, 124, 0, 0.15);
     --shadow-md: 0 4px 6px rgba(245, 124, 0, 0.2);
     --shadow-lg: 0 10px 25px rgba(245, 124, 0, 0.25);
-    --border-radius-sm: 4px;
-    --border-radius-md: 8px;
-    --border-radius-lg: 12px;
-    --border-radius-xl: 16px;
-    --border-radius-button: 8px;
+    --border-radius-sm: 3px;
+    --border-radius-md: 4px;
+    --border-radius-lg: 6px;
+    --border-radius-xl: 8px;
+    --border-radius-button: 4px;
     --bg-primary: var(--white);
     --text-primary: var(--gray-900);
     --text-secondary: var(--gray-700);
@@ -258,7 +258,7 @@ textarea {
     left: 30px;
     width: 70px;
     height: 70px;
-    border-radius: 12px;
+    border-radius: 8px;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -279,7 +279,7 @@ textarea {
 .hr-fit_clickable img {
     width: 100%;
     height: 100%;
-    border-radius: 12px;
+    border-radius: 8px;
     object-fit: cover;
 }
 
@@ -288,7 +288,7 @@ textarea {
     background: var(--navy-dark);
     color: white;
     padding: 6px 12px;
-    border-radius: 8px;
+    border-radius: 4px;
     font-size: 0.8rem;
     left: 80px;
     opacity: 0;
@@ -325,7 +325,7 @@ textarea {
 .hr-fit_projected img {
     max-width: 90vw;
     max-height: 90vh;
-    border-radius: 12px;
+    border-radius: 8px;
     border: 4px solid white;
 }
 
@@ -1067,7 +1067,7 @@ textarea {
     }
 }
 
-/* Gallery Styles - Orange Theme */
+/* Gallery Styles - Orange Theme - WITH LESS ROUNDED CORNERS */
 .photo-gallery-section {
     max-width: 1300px;
     margin: 60px auto;
@@ -1447,7 +1447,7 @@ textarea {
 
 .intro-badge {
     background: rgba(255, 255, 255, 0.95);
-    border-radius: var(--border-radius-sm);
+    border-radius: var(--border-radius-md);
     padding: 8px 22px;
     display: inline-flex;
     align-items: center;
