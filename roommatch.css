@@ -142,10 +142,6 @@
             box-shadow: var(--glass-shadow); border: 1px solid var(--glass-border);
         }
 
-        .welcome-logo {
-            position: absolute; top: -25px; left: -20px; height: 150px; width: auto; z-index: 30; cursor: pointer;
-        }
-        .welcome-logo img { height: 100%; width: auto; display: block; filter: drop-shadow(0 8px 12px rgba(0,0,0,0.3)); pointer-events: none; }
 
         .cx-hr-fit-icon { font-size: 3.5rem; margin-bottom: var(--space-sm); margin-top: 30px; color: var(--orange-primary) !important; text-shadow: 2px 2px 0 rgba(0,0,0,0.05); display: inline-block; cursor: pointer; transition: color 0.2s, transform 0.2s; }
         .cx-hr-fit-icon:hover { color: var(--orange-dark) !important; transform: scale(1.05); }
@@ -178,9 +174,6 @@
             backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px);
         }
         .qat-left, .qat-right { display: flex; align-items: center; gap: var(--space-sm); }
-
-        .logo-area { cursor: pointer; }
-        .logo-area img { height: 42px; width: auto; display: block; pointer-events: none; }
 
         .ribbon-tabs {
             display: flex; padding: 6px var(--space-lg); gap: 6px; background-color: rgba(255,255,255,0.95); min-height: 62px;
@@ -833,7 +826,6 @@
             .price-range { grid-column: span 1; flex-direction: column; }
             .cx-hr-fit-title { font-size: 1.8rem; }
             .cx-hr-fit-subtitle { font-size: 1rem; }
-            .welcome-logo { height: 100px; top: -15px; left: -10px; }
             .gallery-card { flex: 0 0 300px; }
             .filter-details-grid { grid-template-columns: 1fr; }
         }
